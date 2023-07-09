@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family:cursive;
+  background: #C4FFEA;
+}
+
+.myPhoto {
+  width: 40%;
+  border-radius: 50%;
+  margin: 5%;
+  border: 2px solid #044F35;
+}
+
+.footer,
+.header {
+  background:	#598E7B;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.main {
+  width: 100%;
+  margin: 0%;
+  font-size: 16px;
+}
+
+#name-main {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  width:100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s;
+}
+
+.nav-list-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link-footer {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  color: white;
+}
+
+#my-github-link {
+  text-decoration: none;
+  color: white;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+ width: 50%;
+ color: #044F35;
+ padding: 0 2% 0 2%;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #044F35;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+
+  }
+  .nav-link {
+    width: 20%;
+    padding: 0 5px;
+    line-height:0;
+    transition: color 0.5s;
+  }
+  code {
+    white-space: pre-wrap;
+  }
+}
+
+code {
+  white-space: pre-wrap;
+}
+
+.nav-link:hover {
+  color: #044F35;
+}
+
+#my-github-link:hover {
+  color: #044F35;
+}
+
+#data {
+  color: white;
+}
+.information {
+  list-style: none;
+}
+
+#telegramm {
+  color:#229ED9;
+}
+
+#discord {
+  color: #7289DA;
+}
+
+svg {
+  height: 15px;
+}
+
+.flags {
+  width: 24px;
+}
+
+#code {
+  background: white;
+  color: black;
+  width: 100%;
+  margin-left: 10px;
+  border:2px dotted black;
+}

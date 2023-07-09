@@ -6,7 +6,7 @@
 - Telegram: @mishasayadyan
 - Discord: @mishasayadyan
 
-## About me 
+## About me
  Dedicated, detail-oriented and results-driven individual with passion for learning and writing code. The goal I pursue is gaining new skills and knowledge in IT field. And further to be a part of innovation projects.
 In addition I want to become a mentor of RSS.
 
