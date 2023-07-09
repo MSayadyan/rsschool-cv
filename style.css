@@ -79,6 +79,14 @@ ul {
   list-style: none;
 }
 
+#cv-link {
+  text-decoration: none;
+  color: #044F35;
+}
+
+#cv-link:hover {
+  color: white;
+}
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
